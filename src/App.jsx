@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-     <h1>At the beginning of this react and deployment it's so boring.</h1>
-     <h2>Really bored of it especially at gitHub and Firebase deployment</h2>
+    
+     <h2>Really bored of it especially at <sup>gitHub</sup><sub>Push</sub> and <sup>Firebase</sup><sub>deployment</sub></h2>
     </>
   )
 }

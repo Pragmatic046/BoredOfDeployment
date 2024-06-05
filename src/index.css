@@ -1,16 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap");
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: gray;
+  /* rgba(255, 255, 255, 0.87) */
+  background-color: rgb(0, 0, 0);
+  /* #242424 */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  font-family: "Orbitron";
+  font-weight: 100;
+  line-height: 80px;
+  /* word-spacing: 5px; */
+  letter-spacing: 3px;
+}
+
+h2 > sup {
+  color: orangered;
+  border-left: 3px solid gray;
+  border-top: 3px solid gray;
+  border-radius: 2px;
+  padding: 3px;
+  transition: 500ms;
+}
+
+h2 > sub {
+  color: orange;
+  font-size: 9px;
+  border-right: 3px solid gray;
+  border-bottom: 3px solid gray;
+  border-radius: 2px;
+  transition: 600ms;
+  padding: 3px;
 }
 
 a {
